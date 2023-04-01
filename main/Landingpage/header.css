@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root{
+    font-size: 62.5%;
+    --primaryFont : 'DM Sans', sans-serif;
+    --charSpace : 6px; 
+    --primaryColor : #ebc9e1;
+    --secondaryColor : #fafbfc;
+}
+body{
+    font-family: var(--primaryFont);
+    scroll-behavior: smooth;
+    background-color: rgb(218, 201, 201);
+}
+.slider{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+  
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+  
+.slides input{
+    display: none;
+}
+  
+.slide{
+    width: 20%;
+    transition: 800ms;
+}
+  
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* #flatdiscount{
+    position :fixed;
+    right: 0px;
+    bottom: 130px;
+    width: 50px;
+    height: 250px;
+    box-sizing:border-box;
+    padding-left: 10px;
+    background-color: #535766;
+    color: #fff;
+    letter-spacing:1px;
+} */
+#sidePanel{
+    font-size:30px;
+    color: #fcfcfc;
+}
+/* #flatdiscount>h1{
+    writing-mode: vertical-lr;
+    height: 200px;
+    text-align: center;
+    margin:auto;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fcfcfc;
+   
+} */
+body>h1{
+    margin: 50px 25px;
+    margin-top:8rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--charSpace);
+
+}
+#adDiv
+{
+   margin-top:50px;
+}
+
+#deals, 
+ 
+#top 
+{
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+
+
+#deals{
+    margin: auto;  
+}
+#deals, 
+#top{
+    grid-template-columns: repeat(4,auto);
+    /* grid-template-columns: repeat(4,auto); */
+}
+#best
+{
+    grid-template-columns: repeat(3,auto);
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 22%;
+    margin: 1.3%;
+  }
+
+
+
+  .our-team{
+    border: 1px solid #d3d3d3;
+    position: relative;
+    overflow: hidden;
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+}
+.our-team .team-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 45px 18px;
+    background: rgba(0,0,0,0.7);
+    transform: translateX(-100%);
+    transition: all 0.20s ease 0s;
+}
+.our-team:hover .team-content{
+    transform: translateX(0);
+}
+.our-team .team-content .post-title{
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.our-team .team-content .post{
+    font-size: 14px;
+    color: #cb95e1;
+    display: block;
+    margin-bottom: 20px;
+}
+.our-team .description{
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.our-team .team_social{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.our-team .team_social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .team_social li a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #f5f5f5;
+    font-size: 17px;
+    color: #f5f5f5;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    transition: border 0.3s ease 0s;
+}
+.our-team .team_social li a:hover{
+    border-color: transparent;
+}
+.our-team .team-prof{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    padding: 20px 16px;
+    background: rgba(0,0,0,0.7);
+    transform: translateX(0);
+    transition: all 0.20s ease 0s;
+}
+.our-team:hover .team-prof{
+    transform: translateX(100%);
+}
+.our-team .team-prof .post-title{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+}
+.our-team .team-prof .post{
+    font-size: 14px;
+    color: #cb95e1;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 990px) {
+    .our-team{ margin-bottom: 20px; }
+}
+
+.container{
+    display: flex;
+    margin-left: 4%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.r1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.r2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+footer{
+    background-color: rgb(202, 155, 155);
+    height: 10px;
+}
+
+#section_6{
+    padding-top: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 551px) and (max-width: 850px) {
+    .slider {
+      height: 250px;
+    }
+    .navigation-manual{
+        margin-top: 2.5rem;
+    }
+
+    #deals{
+        grid-template-columns: repeat(4, 1fr);
+        /* grid-template-rows: repeat(2, auto); */
+
+    }
+  
+    #best{
+        grid-template-columns: repeat(4, 1fr);
+        /* grid-template-rows: repeat(4, auto); */
+    }
+    #top{
+        grid-template-columns: repeat(4, 1fr);
+        /* grid-template-rows: repeat(2, auto); */
+    }
+
+}
+
+@media all and (max-width: 550px) {
+    .slider{
+        height: 250px;
+    }
+    #deals{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+    #deals img{
+        width: 85%;
+        display: block;
+        margin: auto;
+    }
+    #deals > div:nth-child(7){
+        border: 2px solid red;
+        display: none;
+    }
+  
+    #best{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        
+    }
+    #top{
+        margin-top: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:auto;
+    }
+    #categories{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+    #dealsTop{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        
+    }
+    #unmissable{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+      
+    }
+    #colours{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+    #topInfluencers{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        /* height:100px; */
+    }
+    #budget{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+    #trending{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+}
