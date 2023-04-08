@@ -1,5 +1,5 @@
 # Renttire-BFFHackathon
-https://dizmanvi.github.io/Renttire-BFFHackathon/  
+https://dizmanvi.github.io/Renttire/
 
 Renttire -  A web-based application that helps to connect individuals who want to rent their attire to those who are seeking affordable rental options in their local areas.
 Many people face the challenge of finding affordable clothing for special events or occasions, which can be a significant financial burden. Additionally, buying expensive outfits that may only be worn once can be wasteful and unsustainable.
