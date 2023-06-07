@@ -16,7 +16,7 @@ We have a landing page where we can see various aesthetics and the clothing rang
 ![image](https://user-images.githubusercontent.com/100431225/229341161-cff85088-7206-4051-a70f-c8cbd98316d9.png)
 
 
-Coming to the method of purchasing, we can add any item in the wishlist and directly text the owner of the apparel by using our chat app, they can coordinate and exchange the outfits in whatever way they're comfortable
+Coming to the method of purchasing, we can add any item in the wishlist and directly text the owner of the apparel by using our chat app, they can coordinate and exchange the outfits in whatever way they're comfortable.
 ![image](https://user-images.githubusercontent.com/100431225/229341267-5f3e98b7-c61a-45a1-bd0f-41eccd0ae21f.png)
 
 ![image](https://user-images.githubusercontent.com/100431225/229341231-57a1deb8-4c4c-4c60-9f13-446b413f9280.png)
